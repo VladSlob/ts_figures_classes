@@ -25,10 +25,7 @@ export class Triangle implements Figure {
     if (
       this.a <= 0 ||
       this.b <= 0 ||
-      this.c <= 0 ||
-      valuesSorted[2] >= valuesSorted[1] + valuesSorted[0]
-    ) {
-      throw new Error('All parameters must be greater than zero');
+
     }
   }
 
